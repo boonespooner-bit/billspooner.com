@@ -7,8 +7,8 @@ services:
   - type: web
     name: billspooner-com
     runtime: static
-    # Plain HTML/CSS/JS — no build step needed.
-    buildCommand: ""
+    # Plain HTML/CSS/JS — no real build step, so this is just a no-op.
+    buildCommand: echo "no build needed"
     staticPublishPath: .
     # Render will auto-deploy on every push to the branch you pick in the UI.
     pullRequestPreviewsEnabled: true
