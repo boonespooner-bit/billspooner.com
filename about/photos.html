@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Photos — Bill Spooner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="/" class="nav__brand">BILL <span>SPOONER</span></a>
+    <button class="nav__toggle" aria-label="Menu">MENU</button>
+    <ul class="nav__links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/tubes/">The Tubes</a></li>
+      <li><a href="/music/">Music</a></li>
+    </ul>
+  </nav>
+
+  <header class="strip">
+    <span class="kicker">About · Photos</span>
+    <h1>Bill <em style="font-style:normal;color:var(--neon-pink);">in frame</em></h1>
+    <div class="mt-4">
+      <a href="/about/" class="btn" style="padding:0.6rem 1.2rem;font-size:0.85rem;">Bio</a>
+      <a href="/about/photos.html" class="btn btn--solid" style="padding:0.6rem 1.2rem;font-size:0.85rem;margin-left:0.25rem;">Photos</a>
+      <a href="/about/music.html" class="btn" style="padding:0.6rem 1.2rem;font-size:0.85rem;margin-left:0.25rem;">Music</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="grid">
+      <div class="tile span-8 tile--wide tile--bw tile--placeholder v1">Portrait · Studio</div>
+      <div class="tile span-4 tile--tall tile--bw tile--placeholder v2">Guitar · Fender</div>
+      <div class="tile span-4 tile--placeholder v4">On Stage · Color</div>
+      <div class="tile span-4 tile--bw tile--placeholder v3">Rehearsal</div>
+      <div class="tile span-4 tile--placeholder v5">Backstage · Color</div>
+      <div class="tile span-6 tile--wide tile--bw tile--placeholder v6">Arena</div>
+      <div class="tile span-6 tile--wide tile--placeholder v4">Festival · Color</div>
+      <div class="tile span-4 tile--bw tile--placeholder v2">Writing</div>
+      <div class="tile span-4 tile--bw tile--placeholder v1">Sound Check</div>
+      <div class="tile span-4 tile--placeholder v5">Encore</div>
+    </div>
+    <p class="center mt-6" style="color:rgba(255,255,255,0.5);font-size:0.85rem;letter-spacing:0.15em;">
+      To swap in real photos: drop files into <code>/images/about/</code> and replace each <code>&lt;div class="tile ..."&gt;</code> with
+      <code>&lt;div class="tile ..."&gt;&lt;img src="/images/about/FILE.jpg" alt="…"&gt;&lt;div class="tile__caption"&gt;Caption&lt;/div&gt;&lt;/div&gt;</code>.
+    </p>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__brand">BILL <span>SPOONER</span></div>
+    <div class="footer__links">
+      <a href="/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/tubes/">The Tubes</a>
+      <a href="/music/">Music</a>
+    </div>
+    <div class="footer__small">© <span id="year"></span> Bill Spooner. All rights reserved.</div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

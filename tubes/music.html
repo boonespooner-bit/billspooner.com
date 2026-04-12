@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Tubes · Music</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="/" class="nav__brand">BILL <span>SPOONER</span></a>
+    <button class="nav__toggle" aria-label="Menu">MENU</button>
+    <ul class="nav__links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/tubes/">The Tubes</a></li>
+      <li><a href="/music/">Music</a></li>
+    </ul>
+  </nav>
+
+  <header class="strip">
+    <span class="kicker">The Tubes · Music</span>
+    <h1>The <em style="font-style:normal;color:var(--neon-pink);">records</em></h1>
+    <div class="mt-4">
+      <a href="/tubes/" class="btn" style="padding:0.6rem 1.2rem;font-size:0.85rem;">About</a>
+      <a href="/tubes/photos.html" class="btn" style="padding:0.6rem 1.2rem;font-size:0.85rem;margin-left:0.25rem;">Photos</a>
+      <a href="/tubes/music.html" class="btn btn--solid" style="padding:0.6rem 1.2rem;font-size:0.85rem;margin-left:0.25rem;">Music</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <p>Every major Tubes album — click any card to open it on Spotify.</p>
+    <div class="spotify-grid mt-6">
+      <a class="spotify-card" href="https://open.spotify.com/search/The%20Tubes%201975%20album" target="_blank" rel="noopener">
+        <div class="spotify-card__meta">1975 · A&amp;M</div>
+        <div class="spotify-card__title">The Tubes</div>
+        <div class="spotify-card__link">Open album</div>
+      </a>
+      <a class="spotify-card" href="https://open.spotify.com/search/The%20Tubes%20Young%20and%20Rich" target="_blank" rel="noopener">
+        <div class="spotify-card__meta">1976 · A&amp;M</div>
+        <div class="spotify-card__title">Young and Rich</div>
+        <div class="spotify-card__link">Open album</div>
+      </a>
+      <a class="spotify-card" href="https://open.spotify.com/search/The%20Tubes%20Now" target="_blank" rel="noopener">
+        <div class="spotify-card__meta">1977 · A&amp;M</div>
+        <div class="spotify-card__title">Now</div>
+        <div class="spotify-card__link">Open album</div>
+      </a>
+      <a class="spotify-card" href="https://open.spotify.com/search/The%20Tubes%20What%20Do%20You%20Want%20From%20Live" target="_blank" rel="noopener">
+        <div class="spotify-card__meta">1978 · Live</div>
+        <div class="spotify-card__title">What Do You Want from Live</div>
+        <div class="spotify-card__link">Open album</div>
+      </a>
+      <a class="spotify-card" href="https://open.spotify.com/search/The%20Tubes%20Remote%20Control" target="_blank" rel="noopener">
+        <div class="spotify-card__meta">1979 · A&amp;M</div>
+        <div class="spotify-card__title">Remote Control</div>
+        <div class="spotify-card__link">Open album</div>
+      </a>
+      <a class="spotify-card" href="https://open.spotify.com/search/The%20Tubes%20Completion%20Backward%20Principle" target="_blank" rel="noopener">
+        <div class="spotify-card__meta">1981 · Capitol</div>
+        <div class="spotify-card__title">The Completion Backward Principle</div>
+        <div class="spotify-card__link">Open album</div>
+      </a>
+      <a class="spotify-card" href="https://open.spotify.com/search/The%20Tubes%20Outside%20Inside" target="_blank" rel="noopener">
+        <div class="spotify-card__meta">1983 · Capitol</div>
+        <div class="spotify-card__title">Outside Inside</div>
+        <div class="spotify-card__link">Open album</div>
+      </a>
+      <a class="spotify-card" href="https://open.spotify.com/search/The%20Tubes%20Love%20Bomb" target="_blank" rel="noopener">
+        <div class="spotify-card__meta">1985 · Capitol</div>
+        <div class="spotify-card__title">Love Bomb</div>
+        <div class="spotify-card__link">Open album</div>
+      </a>
+      <a class="spotify-card" href="https://open.spotify.com/search/The%20Tubes%20Genius%20of%20America" target="_blank" rel="noopener">
+        <div class="spotify-card__meta">1996 · Popluna</div>
+        <div class="spotify-card__title">Genius of America</div>
+        <div class="spotify-card__link">Open album</div>
+      </a>
+    </div>
+
+    <div class="mt-6" style="margin-top:4rem;">
+      <span class="kicker">Shortcut</span>
+      <h2 class="mt-2">Follow The Tubes on Spotify</h2>
+      <p>Get their full discography, singles, and live tracks in one place.</p>
+      <a class="btn btn--solid mt-4" href="https://open.spotify.com/search/The%20Tubes" target="_blank" rel="noopener">Open Spotify</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__brand">BILL <span>SPOONER</span></div>
+    <div class="footer__links">
+      <a href="/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/tubes/">The Tubes</a>
+      <a href="/music/">Music</a>
+    </div>
+    <div class="footer__small">© <span id="year"></span> Bill Spooner. All rights reserved.</div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

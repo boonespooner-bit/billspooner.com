@@ -1,0 +1,44 @@
+# Render Blueprint — auto-deploy the site as a Static Site.
+# Commit this file at the repo root. When you create a new service on Render
+# from this repo, Render detects render.yaml and wires everything up.
+# Docs: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: billspooner-com
+    runtime: static
+    # Plain HTML/CSS/JS — no build step needed.
+    buildCommand: ""
+    staticPublishPath: .
+    # Render will auto-deploy on every push to the branch you pick in the UI.
+    pullRequestPreviewsEnabled: true
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /css/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /js/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /images/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+    routes:
+      # Allow /about, /tubes, /music without trailing slash.
+      - type: rewrite
+        source: /about
+        destination: /about/index.html
+      - type: rewrite
+        source: /tubes
+        destination: /tubes/index.html
+      - type: rewrite
+        source: /music
+        destination: /music/index.html

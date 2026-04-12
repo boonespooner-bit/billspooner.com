@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Tubes · Photos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="/" class="nav__brand">BILL <span>SPOONER</span></a>
+    <button class="nav__toggle" aria-label="Menu">MENU</button>
+    <ul class="nav__links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/tubes/">The Tubes</a></li>
+      <li><a href="/music/">Music</a></li>
+    </ul>
+  </nav>
+
+  <header class="strip">
+    <span class="kicker">The Tubes · Photos</span>
+    <h1>The <em style="font-style:normal;color:var(--neon-pink);">spectacle</em></h1>
+    <div class="mt-4">
+      <a href="/tubes/" class="btn" style="padding:0.6rem 1.2rem;font-size:0.85rem;">About</a>
+      <a href="/tubes/photos.html" class="btn btn--solid" style="padding:0.6rem 1.2rem;font-size:0.85rem;margin-left:0.25rem;">Photos</a>
+      <a href="/tubes/music.html" class="btn" style="padding:0.6rem 1.2rem;font-size:0.85rem;margin-left:0.25rem;">Music</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <span class="kicker">Black &amp; White · 1970s</span>
+    <h2 class="mt-2">The early years.</h2>
+    <div class="grid mt-6">
+      <div class="tile span-8 tile--wide tile--bw tile--placeholder v1">Live · Fillmore · '75</div>
+      <div class="tile span-4 tile--tall tile--bw tile--placeholder v2">Fee Waybill</div>
+      <div class="tile span-4 tile--bw tile--placeholder v3">Quay Lewd</div>
+      <div class="tile span-4 tile--bw tile--placeholder v6">Mondo Bondage</div>
+      <div class="tile span-4 tile--bw tile--placeholder v1">Rehearsal Space</div>
+      <div class="tile span-6 tile--wide tile--bw tile--placeholder v2">Tour Bus · 1976</div>
+      <div class="tile span-6 tile--wide tile--bw tile--placeholder v3">Backstage</div>
+    </div>
+  </section>
+
+  <section class="section section--light" style="max-width:none;">
+    <div style="max-width:1400px;margin:0 auto;">
+      <span class="kicker">In Color · 1980s</span>
+      <h2 class="mt-2">MTV era.</h2>
+      <div class="grid mt-6">
+        <div class="tile span-4 tile--placeholder v4">She's A Beauty</div>
+        <div class="tile span-4 tile--placeholder v5">MTV Studio</div>
+        <div class="tile span-4 tile--placeholder v4">Tour · '83</div>
+        <div class="tile span-6 tile--wide tile--placeholder v5">Completion Backward</div>
+        <div class="tile span-6 tile--wide tile--placeholder v4">Stadium Tour</div>
+        <div class="tile span-3 tile--placeholder v5">Bill · Telecaster</div>
+        <div class="tile span-3 tile--placeholder v4">Prairie Prince</div>
+        <div class="tile span-3 tile--placeholder v5">Rick Anderson</div>
+        <div class="tile span-3 tile--placeholder v4">Roger Steen</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="center" style="color:rgba(255,255,255,0.5);font-size:0.85rem;letter-spacing:0.15em;">
+      To add real photos: drop files into <code>/images/tubes/</code> and replace placeholder tiles with <code>&lt;img&gt;</code> tags.
+    </p>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__brand">BILL <span>SPOONER</span></div>
+    <div class="footer__links">
+      <a href="/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/tubes/">The Tubes</a>
+      <a href="/music/">Music</a>
+    </div>
+    <div class="footer__small">© <span id="year"></span> Bill Spooner. All rights reserved.</div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
