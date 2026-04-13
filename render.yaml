@@ -37,6 +37,9 @@ services:
         source: /about
         destination: /about/index.html
       - type: rewrite
+        source: /beans
+        destination: /beans/index.html
+      - type: rewrite
         source: /tubes
         destination: /tubes/index.html
       - type: rewrite
