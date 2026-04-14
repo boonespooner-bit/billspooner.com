@@ -343,6 +343,39 @@ p { margin-bottom: 1.2em; max-width: 72ch; }
 }
 .tile--contain:hover img { transform: none; filter: none; }
 
+/* Caption stacked BELOW the thumbnail (used on /music album grid) */
+.tile--caption-below {
+  background: transparent;
+  aspect-ratio: auto;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+}
+.tile--caption-below .tile__thumb {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+.tile--caption-below .tile__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease, filter 0.6s ease;
+}
+.tile--caption-below:hover .tile__thumb img {
+  transform: scale(1.05);
+  filter: grayscale(0) contrast(1.05);
+}
+.tile--caption-below .tile__caption {
+  position: static;
+  background: none;
+  padding: 0.75rem 0 0;
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+
 /* Split image rendered as a real <img> so nothing gets cropped */
 .split__photo {
   display: block;
