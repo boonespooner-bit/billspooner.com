@@ -3,12 +3,90 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bill Spooner — Founder of The Tubes</title>
-  <meta name="description" content="The official site of Bill Spooner — guitarist, songwriter, and founding member of the legendary American rock band The Tubes." />
+  <title>Bill Spooner — Founder of The Tubes · Guitarist & Songwriter</title>
+  <meta name="description" content="Official site of Bill Spooner, co-founder and guitarist of The Tubes. Writer of 'White Punks on Dope,' 'Talk to Ya Later,' and 'She's a Beauty.' Photos, videos, music." />
+  <meta name="keywords" content="Bill Spooner, The Tubes, White Punks on Dope, She's a Beauty, Talk to Ya Later, Don't Want to Wait Anymore, art rock, Quay Lewd, Fee Waybill, The Beans" />
+  <meta name="author" content="Bill Spooner" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="canonical" href="https://billspooner.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bill Spooner" />
+  <meta property="og:title" content="Bill Spooner — Founder of The Tubes" />
+  <meta property="og:description" content="Guitarist, songwriter, and co-founder of The Tubes. Fifty years of art rock from 'White Punks on Dope' to 'She's a Beauty.'" />
+  <meta property="og:url" content="https://billspooner.com/" />
+  <meta property="og:image" content="https://billspooner.com/images/tubes/TubesAliens.jpg" />
+  <meta property="og:image:alt" content="The Tubes — Fee Waybill and a guitarist on stage, dramatic backlight" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bill Spooner — Founder of The Tubes" />
+  <meta name="twitter:description" content="Co-founder and guitarist of The Tubes. 'White Punks on Dope,' 'She's a Beauty,' 'Talk to Ya Later.'" />
+  <meta name="twitter:image" content="https://billspooner.com/images/tubes/TubesAliens.jpg" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="image" href="/images/tubes/TubesAliens.jpg" fetchpriority="high" />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/styles.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://billspooner.com/#website",
+        "url": "https://billspooner.com/",
+        "name": "Bill Spooner",
+        "description": "Official site of Bill Spooner, co-founder of The Tubes.",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://billspooner.com/#bill",
+        "name": "Bill Spooner",
+        "alternateName": "William Spooner",
+        "jobTitle": "Guitarist, Songwriter",
+        "description": "American rock guitarist and songwriter, co-founder of The Tubes.",
+        "url": "https://billspooner.com/about/",
+        "image": "https://billspooner.com/images/about/bill-portrait.jpg",
+        "sameAs": [
+          "https://open.spotify.com/artist/7o0Hr9vqxmuVUhhrQOhbRF",
+          "https://en.wikipedia.org/wiki/The_Tubes"
+        ],
+        "memberOf": {
+          "@type": "MusicGroup",
+          "@id": "https://billspooner.com/#tubes"
+        }
+      },
+      {
+        "@type": "MusicGroup",
+        "@id": "https://billspooner.com/#tubes",
+        "name": "The Tubes",
+        "description": "American art-rock band formed in San Francisco in 1972, known for theatrical stage shows and hits including 'White Punks on Dope,' 'Talk to Ya Later,' and 'She's a Beauty.'",
+        "url": "https://billspooner.com/tubes/",
+        "foundingLocation": "San Francisco, California",
+        "foundingDate": "1972",
+        "genre": ["Art Rock", "New Wave", "Progressive Rock"],
+        "image": "https://billspooner.com/images/tubes/TubesAliens.jpg",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/The_Tubes",
+          "https://open.spotify.com/artist/7zfhej6FnVXN9LIXs6dcoK",
+          "https://www.youtube.com/channel/UCb_b8yPKaWzzDkP8NlPp1YQ"
+        ],
+        "member": {
+          "@type": "Person",
+          "@id": "https://billspooner.com/#bill"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <nav class="nav">
@@ -118,27 +196,27 @@
     </div>
     <div class="grid">
       <div class="tile span-6 tile--wide">
-        <img src="/images/tubes/The-Tubes.webp" alt="The Tubes on stage, late 1970s" />
+        <img loading="lazy" decoding="async" src="/images/tubes/The-Tubes.webp" alt="The Tubes on stage, late 1970s" />
         <div class="tile__caption">On Stage · Late '70s</div>
       </div>
       <div class="tile span-3">
-        <img src="/images/tubes/TubesFeeQuay.jpg" alt="Fee Waybill as Quay Lewd — platform boots, feather boa" />
+        <img loading="lazy" decoding="async" src="/images/tubes/TubesFeeQuay.jpg" alt="Fee Waybill as Quay Lewd — platform boots, feather boa" />
         <div class="tile__caption">Quay Lewd</div>
       </div>
       <div class="tile span-3">
-        <img src="/images/tubes/TubesRush.jpg" alt="Winterland marquee: Tubes, Rush, Elvin Bishop, Leslie West" />
+        <img loading="lazy" decoding="async" src="/images/tubes/TubesRush.jpg" alt="Winterland marquee: Tubes, Rush, Elvin Bishop, Leslie West" />
         <div class="tile__caption">Winterland · SF</div>
       </div>
       <div class="tile span-4">
-        <img src="/images/tubes/TubesBill.jpg" alt="Bill Spooner on stage with a Stratocaster" />
+        <img loading="lazy" decoding="async" src="/images/tubes/TubesBill.jpg" alt="Bill Spooner on stage with a Stratocaster" />
         <div class="tile__caption">Bill · On Stage</div>
       </div>
       <div class="tile span-4 tile--wide">
-        <img src="/images/tubes/TubesColorStage.jpg" alt="The Tubes on tour under purple stage lights" />
+        <img loading="lazy" decoding="async" src="/images/tubes/TubesColorStage.jpg" alt="The Tubes on tour under purple stage lights" />
         <div class="tile__caption">Big Stage · '81</div>
       </div>
       <div class="tile span-4 tile--wide">
-        <img src="/images/tubes/TubesUmas1985.jpg" alt="The Tubes playing a festival, 1985" />
+        <img loading="lazy" decoding="async" src="/images/tubes/TubesUmas1985.jpg" alt="The Tubes playing a festival, 1985" />
         <div class="tile__caption">Festival · 1985</div>
       </div>
     </div>
