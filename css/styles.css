@@ -333,6 +333,26 @@ p { margin-bottom: 1.2em; max-width: 72ch; }
 .tile--wide { aspect-ratio: 16 / 9; }
 .tile--square { aspect-ratio: 1 / 1; }
 
+/* Show the whole image (no crop) with clean letterboxing */
+.tile--contain { aspect-ratio: auto; background: #000; }
+.tile--contain img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+.tile--contain:hover img { transform: none; filter: none; }
+
+/* Split image rendered as a real <img> so nothing gets cropped */
+.split__photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #0a0a0a;
+  box-shadow: var(--shadow);
+  filter: grayscale(1) contrast(1.15);
+}
+
 @media (max-width: 900px) {
   .span-4, .span-6, .span-8 { grid-column: span 6; }
   .span-12 { grid-column: span 12; }
