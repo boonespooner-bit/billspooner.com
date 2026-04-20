@@ -45,3 +45,6 @@ services:
       - type: rewrite
         source: /music
         destination: /music/index.html
+      - type: rewrite
+        source: /songs
+        destination: /songs/index.html
