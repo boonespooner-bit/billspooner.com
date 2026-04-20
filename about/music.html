@@ -23,6 +23,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://billspooner.com/"},
+      {"@type": "ListItem", "position": 2, "name": "About", "item": "https://billspooner.com/about/"},
+      {"@type": "ListItem", "position": 3, "name": "Music", "item": "https://billspooner.com/about/music.html"}
+    ]
+  }
+  </script>
 </head>
 <body>
   <nav class="nav">
@@ -34,6 +46,7 @@
       <li><a href="/beans/">The Beans</a></li>
       <li><a href="/tubes/">The Tubes</a></li>
       <li><a href="/music/">Music</a></li>
+      <li><a href="/songs/">Songs</a></li>
     </ul>
   </nav>
 
@@ -88,6 +101,37 @@
     </div>
   </section>
 
+  <!-- SONG DEEP DIVES -->
+  <section class="section">
+    <div class="section__head">
+      <div>
+        <span class="kicker">Song pages</span>
+        <h2>The stories behind<br/>the songs.</h2>
+      </div>
+      <a href="/songs/" class="btn">All songs →</a>
+    </div>
+    <div class="card-row">
+      <a class="card" href="/songs/shes-a-beauty.html">
+        <span class="kicker" style="color:var(--neon-cyan);">1983 · Billboard #10</span>
+        <h3>She's a Beauty</h3>
+        <p>The Tubes' biggest US hit. The story behind the song, the album, and the MTV video.</p>
+        <span class="card__arrow">Read more →</span>
+      </a>
+      <a class="card" href="/songs/white-punks-on-dope.html">
+        <span class="kicker" style="color:var(--neon-cyan);">1975 · UK Chart #28</span>
+        <h3>White Punks on Dope</h3>
+        <p>Nine minutes. The debut-album anthem that defined The Tubes' career.</p>
+        <span class="card__arrow">Read more →</span>
+      </a>
+      <a class="card" href="/songs/talk-to-ya-later.html">
+        <span class="kicker" style="color:var(--neon-cyan);">1981 · MTV staple</span>
+        <h3>Talk to Ya Later</h3>
+        <p>The new wave hit that put The Tubes on mainstream radio and early MTV.</p>
+        <span class="card__arrow">Read more →</span>
+      </a>
+    </div>
+  </section>
+
   <!-- SOLO ALBUMS -->
   <section class="section section--light">
     <div class="section__head">
@@ -107,7 +151,7 @@
         <div class="tile__thumb"><img loading="lazy" decoding="async" src="/images/billspooner/MalltoMarsAlbum.jpg" alt="Bill 'Sputnik' Spooner — Mall to Mars solo album cover" /></div>
         <div class="tile__caption">Mall to Mars</div>
       </a>
-      <a class="tile span-3 tile--caption-below" style="text-decoration:none;" href="https://open.spotify.com/artist/7o0Hr9vqxmuVUhhrQOhbRF" target="_blank" rel="noopener">
+      <a class="tile span-3 tile--caption-below" style="text-decoration:none;" href="https://www.youtube.com/playlist?list=PLScgy6aiQTCcPLgMAP34sV_1IqdpOStdz" target="_blank" rel="noopener">
         <div class="tile__thumb"><img loading="lazy" decoding="async" src="/images/billspooner/spooner-demolicious.webp" alt="Bill Spooner — Demolicious album cover" /></div>
         <div class="tile__caption">Demolicious</div>
       </a>
@@ -122,6 +166,7 @@
       <a href="/beans/">The Beans</a>
       <a href="/tubes/">The Tubes</a>
       <a href="/music/">Music</a>
+      <a href="/songs/">Songs</a>
     </div>
     <div class="footer__small">© <span id="year"></span> Bill Spooner. All rights reserved.</div>
   </footer>

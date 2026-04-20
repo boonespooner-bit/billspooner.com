@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
   <url>
     <loc>https://billspooner.com/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://billspooner.com/images/tubes/TubesAliens.jpg</image:loc>
       <image:title>The Tubes — Fee Waybill on stage</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://billspooner.com/images/tubes/The-Tubes.webp</image:loc>
+      <image:title>The Tubes on stage, late 1970s</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://billspooner.com/images/tubes/TubesFeeQuay.jpg</image:loc>
+      <image:title>Fee Waybill as Quay Lewd</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://billspooner.com/about/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -19,43 +31,128 @@
       <image:title>Bill Spooner portrait</image:title>
     </image:image>
   </url>
+
   <url>
     <loc>https://billspooner.com/about/photos.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://billspooner.com/about/music.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
   <url>
     <loc>https://billspooner.com/tubes/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
     <image:image>
       <image:loc>https://billspooner.com/images/tubes/TubesAliens.jpg</image:loc>
       <image:title>The Tubes on stage</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://billspooner.com/images/tubes/TubesBill.jpg</image:loc>
+      <image:title>Bill Spooner on stage with a Stratocaster</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://billspooner.com/tubes/photos.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/tubes/TubesAliens.jpg</image:loc>
+      <image:title>The Tubes — Fee Waybill on stage</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://billspooner.com/images/tubes/TubesColorStage.jpg</image:loc>
+      <image:title>The Tubes on tour under purple stage lights</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://billspooner.com/images/tubes/TubesRush.jpg</image:loc>
+      <image:title>Winterland marquee — Tubes, Rush, Elvin Bishop, Leslie West</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://billspooner.com/images/tubes/TubesUmas1985.jpg</image:loc>
+      <image:title>The Tubes playing a festival, 1985</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://billspooner.com/tubes/music.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://billspooner.com/beans/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/beans/TheBeans.jpg</image:loc>
+      <image:title>The Beans — Phoenix, circa 1970</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://billspooner.com/images/beans/beans-van_t720.webp</image:loc>
+      <image:title>The Beans with their hand-painted van in San Francisco</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://billspooner.com/music/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <url>
+    <loc>https://billspooner.com/songs/</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/songs/shes-a-beauty.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/songs/white-punks-on-dope.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/songs/talk-to-ya-later.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/songs/dont-want-to-wait-anymore.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/songs/mondo-bondage.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
 </urlset>
