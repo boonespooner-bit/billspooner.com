@@ -48,7 +48,3 @@ services:
       - type: rewrite
         source: /songs
         destination: /songs/index.html
-      - type: redirect
-        source: /bio.html
-        destination: /about/
-        code: 301
