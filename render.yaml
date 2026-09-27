@@ -48,3 +48,6 @@ services:
       - type: rewrite
         source: /songs
         destination: /songs/index.html
+      - type: rewrite
+        source: /shows
+        destination: /shows/index.html
