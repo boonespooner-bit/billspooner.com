@@ -796,3 +796,15 @@ p { margin-bottom: 1.2em; max-width: 72ch; }
 .show__src { font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; }
 .show__src a { color: rgba(255, 255, 255, 0.45); }
 .show__src a:hover { color: var(--neon-cyan); }
+
+/* ── Compact run/residency list ───────────────────────── */
+.runs { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-top: 2rem; }
+.run {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 1.1rem 1.2rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+.run__yr { font-family: var(--font-display); font-size: 1.6rem; color: var(--neon-pink); line-height: 1; }
+.run__venue { font-weight: 800; margin: 0.35rem 0 0.15rem; }
+.run__city { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(0,0,0,0.5); }
+.run__note { font-size: 0.9rem; margin-top: 0.6rem; color: rgba(0,0,0,0.75); }
