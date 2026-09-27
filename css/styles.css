@@ -808,3 +808,17 @@ p { margin-bottom: 1.2em; max-width: 72ch; }
 .run__venue { font-weight: 800; margin: 0.35rem 0 0.15rem; }
 .run__city { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(0,0,0,0.5); }
 .run__note { font-size: 0.9rem; margin-top: 0.6rem; color: rgba(0,0,0,0.75); }
+
+/* ── Image credit lines ───────────────────────────────── */
+.credit {
+  font-size: 0.7rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.38);
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+.credit a { color: rgba(255, 255, 255, 0.55); text-decoration: underline; }
+.credit a:hover { color: var(--neon-cyan); }
+.section--light .credit { color: rgba(0, 0, 0, 0.45); }
+.section--light .credit a { color: rgba(0, 0, 0, 0.6); }
