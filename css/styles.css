@@ -425,6 +425,7 @@ p { margin-bottom: 1.2em; max-width: 72ch; }
 
 .btn {
   display: inline-block;
+  margin: 0 0.5rem 0.5rem 0;
   font-family: var(--font-display);
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -886,4 +887,22 @@ p { margin-bottom: 1.2em; max-width: 72ch; }
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--neon-cyan);
+}
+
+
+/* ── Button rows: spacing comes from the button's own margin, so a
+      wrapped button never inherits a left indent. Containers that
+      already supply their own gap opt out.                        ── */
+[style*="display:flex"] > .btn { margin: 0; }
+
+@media (max-width: 640px) {
+  .btn {
+    padding: 0.8rem 1.15rem;
+    font-size: 0.82rem;
+    letter-spacing: 0.14em;
+  }
+  .hero__content .btn, .strip .btn { width: auto; }
+}
+@media (max-width: 380px) {
+  .btn { padding: 0.72rem 0.9rem; font-size: 0.78rem; letter-spacing: 0.1em; }
 }
