@@ -242,4 +242,213 @@
     <priority>0.75</priority>
   </url>
 
+  <url>
+    <loc>https://billspooner.com/shows/trinity-cathedral-1970/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/beans/beans-poster_t720.webp</image:loc>
+      <image:title>Trinity Cathedral, 1970</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/art-institute-1972/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/sfai-logo.png</image:loc>
+      <image:title>San Francisco Art Institute, 1972</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/the-village-1973/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/the-village-sf-1973-bob-gruen.png</image:loc>
+      <image:title>The Village, 1973</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/kezar-stadium-1973/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/kezar-19730602-bgp-handbill.jpg</image:loc>
+      <image:title>Kezar Stadium, 1973</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/the-matrix-1973/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/matrix-sf-19730904-handbill.jpg</image:loc>
+      <image:title>The Matrix, 1973</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/winterland-halloween-1974/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/winterland-19741031-still.webp</image:loc>
+      <image:title>Winterland Ballroom, 1974</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/winterland-kiss-rush-1975/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/tubes/TubesRush.jpg</image:loc>
+      <image:title>Winterland Ballroom, 1975</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/winterland-new-years-eve-1975/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/winterland-19751231-nye.jpg</image:loc>
+      <image:title>Winterland Ballroom, 1975</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/paramount-portland-1977/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/portland-paramount-19770615-poster.jpg</image:loc>
+      <image:title>Paramount Theatre, 1977</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/hammersmith-odeon-1977/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/tubes-1977-promo-bagobucks-am.jpg</image:loc>
+      <image:title>Hammersmith Odeon, 1977</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/portsmouth-guildhall-1977/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/portsmouth-1977-guildhall-bans-the-tubes.jpg</image:loc>
+      <image:title>Portsmouth Guildhall, 1977</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/chateau-neuf-oslo-1977/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/tubes-oslo-19771129-helge-overas.jpg</image:loc>
+      <image:title>Chateau Neuf, 1977</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/pantages-theatre-1978/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/pantages-1978-poster.jpg</image:loc>
+      <image:title>Pantages Theatre, 1978</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/de-montfort-hall-1978/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/leicester-19780509-ticket.jpg</image:loc>
+      <image:title>De Montfort Hall, 1978</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/knebworth-1978/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/knebworth-1978-programme-cover.jpg</image:loc>
+      <image:title>Knebworth Park, 1978</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/uk-tour-1979/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/remote-control-1979-uk-tour-ad.jpg</image:loc>
+      <image:title>UK tour · seven nights at Hammersmith, 1979</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/greek-theatre-1979/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/ymo-madame-wongs-la-1979.webp</image:loc>
+      <image:title>Greek Theatre, 1979</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/jfk-stadium-1983/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/jfk-stadium-19830604-tour-shirt.jpg</image:loc>
+      <image:title>John F. Kennedy Stadium, 1983</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://billspooner.com/shows/commonwealth-stadium-1983/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://billspooner.com/images/shows/edmonton-19830807-newspaper-ad.jpg</image:loc>
+      <image:title>Commonwealth Stadium, 1983</image:title>
+    </image:image>
+  </url>
+
 </urlset>
